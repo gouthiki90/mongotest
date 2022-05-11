@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+    session:
+      timeout: 60
+
+spring:
+  data:
+    mongodb:
+      host: 192.168.25.3
+      port: 20000
+      database: greendb
+
